@@ -1,3 +1,10 @@
+> This program can be used also for LCD-s with other dismensions, not only 128x64. For example, to make it 
+work with PCD8544 84x48 LCD you need to edit files scripts/Dither.js and ./st7565.html replacing 128 and 64 wherever they would be met to 84 and 48 accordingly. And for other dismensions actions are the same.
+>> I don't know JS and HTML, I just needed this tool to convert some image for Nokia 5110 LCD, so for me it is easier to "hack" it a little bit
+than to add a feature, which allows user to select target dismensions.
+
+-------------------------------------------------------------------------------------------
+
 #ST7565 Graphical LCD Designer#
 
 st7565-designer is a HTML5 web application for designing bitmaps and fonts for the st7565 graphical lcd. 
