@@ -92,6 +92,7 @@ function Display(canvasID){
 // format the hex string to something usable in a sketch
 				hex_string = "0" + hex_string;
 			}
+			hex_string = hex_string.toUpperCase();
 // push to the output array
 			col_values.push("0x" + hex_string + ",");
 		}
